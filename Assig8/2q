@@ -1,0 +1,12 @@
+
+x = int(input(':'))
+num = 2
+while(2<x):
+    if(x%num==0):
+        print("not  prime")
+        num+=1
+        break
+else:
+    print("prime ")
+    
+        
